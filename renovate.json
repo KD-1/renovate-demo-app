@@ -5,7 +5,7 @@
     "mergeConfidence:all-badges"
   ],
   "timezone": "Europe/Berlin",
-  "schedule": ["on sunday"],
+  "schedule": ["on tuesday"],
   "prConcurrentLimit": 3,
   "minimumReleaseAge": "5 days",
   "packageRules": [
