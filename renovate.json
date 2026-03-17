@@ -4,12 +4,17 @@
     "config:recommended",
     "mergeConfidence:all-badges"
   ],
+  "timezone": "Europe/Berlin",
+  "schedule": ["on sunday"],
+  "prConcurrentLimit": 3,
+  "minimumReleaseAge": "5 days",
   "packageRules": [
     {
       "matchUpdateTypes": ["patch"],
       "groupName": "all patch dependencies",
       "automerge": true,
-      "automergeType": "pr"
+      "automergeType": "pr",
+      "minimumReleaseAge": "1 days"
     },
     {
       "matchUpdateTypes": ["minor"],
