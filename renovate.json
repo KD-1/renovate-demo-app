@@ -6,12 +6,12 @@
   ],
   "packageRules": [
     {
-      "matchDepTypes": ["devDependencies"],
-      "groupName": "dev dependencies"
-    },
-    {
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "all non-major dependencies"
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "groupName": "dev dependencies"
     },
     {
       "matchPackageNames": ["axios"],
