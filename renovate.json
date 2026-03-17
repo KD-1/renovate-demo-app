@@ -6,8 +6,12 @@
   ],
   "packageRules": [
     {
-      "matchUpdateTypes": ["minor", "patch"],
-      "groupName": "all non-major dependencies"
+      "matchUpdateTypes": ["patch"],
+      "groupName": "all patch dependencies"
+    },
+    {
+      "matchUpdateTypes": ["minor"],
+      "groupName": "all minor dependencies"
     },
     {
       "matchDepTypes": ["devDependencies"],
