@@ -10,10 +10,8 @@
       "groupName": "dev dependencies"
     },
     {
-      "matchUpdateTypes": ["patch"]
-    },
-    {
-      "matchUpdateTypes": ["minor"]
+      "matchPackageNames": ["*"],
+      "matchUpdateTypes": ["minor", "patch"],
     },
     {
       "matchPackageNames": ["axios"],
